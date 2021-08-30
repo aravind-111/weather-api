@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+  display: flex;
+  flex-direction: vertical;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  background: linear-gradient(90deg, rgb(255, 156, 156), rgb(91, 201, 211), rgb(156, 255, 132));
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 50rem;
+  height: 30rem;
+  background-color: rgb(241, 241, 247);
+  box-shadow: 0px 2px 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.header {
+  background: yellow;
+  padding: 25px;
+  text-align: center;
+}
+
+.location {
+  padding: 25px;
+  text-align: center;
+}
+
+.details {
+  width: 25rem;
+  height: 125px;
+  justify-content: center;
+  margin: 30px auto 0 auto;
+  border-radius: 5px;
+  box-shadow: 4px 4px 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+  background-color: white;
+}
+
+.footer {
+  margin-top: 63px;
+  /* background: red; */
+  padding: 30px;
+  font-family: 'Roboto Mono', monospace"
+  /* background-color: red; */
+}
+
+.cloudy {
+  width: 150px;
+  height: 150px;
+  margin-left: 20px;
+  margin-top: -10px;
+}
+
+.name {
+  margin-top: 10px;
+  font-size: 24px;
+  /* font-weight: bold; */
+}
+
+.temp {
+  margin-top: 10px;
+  font-size: 35px;
+  /* font-weight: bold; */
+}
+
+.date {
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.city {
+  padding: 10px;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  background-color: rgb(241, 241, 247);
+  margin-top: 5px;
+}
+
+.search {
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.search:hover {
+  cursor: pointer;
+}
+
+.search:active {
+  transform: scale(0.95);
+}
