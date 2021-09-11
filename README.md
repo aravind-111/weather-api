@@ -1,1 +1,1 @@
-# [Click Here](https://app.netlify.com/sites/weather-api-aravind/overview) to view deployed site.
+# [Click Here](https://weather-api-aravind.netlify.app/) to view deployed site.
